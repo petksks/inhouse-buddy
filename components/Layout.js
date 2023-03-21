@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 
 const Layout = ({ children }) => {
   return (
@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
       <Navbar />
       <main className="flex-grow">{children}</main>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
